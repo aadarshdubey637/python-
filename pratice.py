@@ -14,9 +14,17 @@ miles=float(input("enter miles:"))
 km=miles/0.621371
 print(miles,"is eual to",km,"kilometer")
 
-(3) leap year
+(3) #leap year
+
 year=int(input("eneter leap year"))
 if(year % 4 == 0 and year %100 !=0) or(year % 400 ==0):
 print(year,"it is leap year")
 else:
     print(year,"it is not")
+
+(4) #swap two value
+a=input("enter a")
+b=input("enter b")
+a,b=b,a
+print("After swaping,a=",a,"b=",b,)
+
