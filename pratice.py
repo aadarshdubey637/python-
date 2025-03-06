@@ -28,3 +28,12 @@ b=input("enter b")
 a,b=b,a
 print("After swaping,a=",a,"b=",b,)
 
+(5)#  calculate simple interst
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time in years: "))
+
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest:", simple_interest)
+
+
