@@ -36,4 +36,9 @@ time = float(input("Enter the time in years: "))
 simple_interest = (principal * rate * time) / 100
 print("Simple Interest:", simple_interest)
 
+(6) // convert binary to decimal number
+
+binary=input("enter binary number:")
+decimal=int(binary,2)
+print("Decimal number is",decimal)
 
